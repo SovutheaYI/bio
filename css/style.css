@@ -63,7 +63,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     border: 6px solid #fff;
-    border-radius: 100px;
+    border-radius: 50%;
 }
 /* Align image to center */
 
@@ -401,3 +401,24 @@ hr {
         font-size: 150px;
     }
   }
+
+.info-container {
+    margin-left: 24px;
+    margin-top: -2px;
+}
+
+.title {
+    color: #333;
+    font-weight: 800;
+    font-size: 26px;
+}
+
+.sub-title {
+    font-weight: 600;
+    color: #818181;
+}
+
+.icon {
+    font-size: 40px;
+    color: #333;
+}
