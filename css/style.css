@@ -10,10 +10,7 @@ body {
 .navbar {
     margin-bottom: 0;
     background-color: #f4511e;
-    /* background: linear-gradient(to right, #87d2db 0%, #69e5f4 100%); */
-    /* background-color: #77d353; */
     z-index: 9999;
-    border: 0;
     font-size: 12px !important;
     line-height: 1.42857143 !important;
     letter-spacing: 4px;
@@ -24,17 +21,20 @@ body {
 .navbar li a, .navbar .navbar-brand {
     color: #fff !important;
 }
+
 .navbar-nav li a:hover, .navbar-nav li.active a {
     color: #f4511e !important;
     background-color: #fff !important;
-    /* background-color: transparent !important; */
     transition: 0.3s;
     border-radius: 2px;
 }
 
 .navbar-default .navbar-toggle {
-    border-color: transparent;
-    color: #fff !important;
+    border-color: #fff !important;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff !important;
 }
 
 .form-input {
@@ -44,7 +44,6 @@ body {
 .jumbotron {
     background-color: #f4511e;
     color: #fff;
-    /* padding: 100px 45px; */
     padding-top: 150px;
     padding-bottom: 180px;
     padding-left: 60px;
