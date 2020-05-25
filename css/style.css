@@ -1,10 +1,23 @@
 body {
     line-height: 1.8;
-    font: 400 15px Lato, sans-serif;
     color: #818181;
 }
 .navbar-header {
     margin-top: -12px;
+}
+
+.hello-text {
+    color: #ffffff;
+    margin-top: 20px;
+    font-size: 40px;
+    font-family: "SF UI Display Heavy", sans-serif;
+}
+
+.name {
+    color: #ffffff;
+    font-family: "SF UI Display Black", sans-serif;
+    font-size: 60px;
+    margin-bottom: 20px;
 }
 
 .navbar {
@@ -20,6 +33,7 @@ body {
 }
 .navbar li a, .navbar .navbar-brand {
     color: #fff !important;
+    margin-top: -6px;
 }
 
 .navbar-nav li a:hover, .navbar-nav li.active a {
@@ -27,6 +41,14 @@ body {
     background-color: #fff !important;
     transition: 0.3s;
     border-radius: 2px;
+    font-family: "SF UI Display Heavy", sans-serif;
+    font-weight: bold;
+}
+
+.navbar-toggle {
+    margin-top: 13px;
+    margin-right: 16px;
+    margin-bottom: 0;
 }
 
 .navbar-default .navbar-toggle {
@@ -45,16 +67,7 @@ body {
     background-color: #f4511e;
     color: #fff;
     padding-top: 150px;
-    padding-bottom: 180px;
-    padding-left: 60px;
-    padding-right: 60px;
-    font-family: Montserrat, sans-serif;
 }
-
-.container > h1, .container > h2 {
-    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
-}
-
 
 /* Align image to center */
 .logo_user {
@@ -63,24 +76,24 @@ body {
     margin-right: auto;
     border: 6px solid #fff;
     border-radius: 50%;
+    object-fit: cover;
+    width: 150px;
+    height: 150px;
 }
 /* Align image to center */
 
 .skills > h3, .container > h3, .education > h3, .services > h3, .contact > h3 {
     font-weight: 700;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 34px;
 }
 
 /* Typed animated text */
-.typed h3 {
-    letter-spacing: 2px;
-}
 .typed {
     height: 20px;
 }
 .type {
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "SF UI Display Heavy", sans-serif;
+    font-weight: bold;
 }
 /* Typed animated text */
 
@@ -140,14 +153,11 @@ body {
     flex-direction: row;
 }
 
-
 /* Social media Icon */
 .social-icons {
-	margin-top: 4em !important;
 	text-align: center;
 	margin: 0 auto;
     width: 100%;
-    /* margin-bottom: 60px; */
 }
 
 .social-icons a:nth-child(1) {
@@ -352,7 +362,14 @@ hr {
     padding: 18px;
 }
 
-
+.about-text {
+    color: #818181;
+    font-size: 16px;
+    text-indent: 36px;
+    line-height: 26px;
+    letter-spacing: 0.5px;
+    font-family: "SF UI Display Light", sans-serif;
+}
 
 
 .slideanim {visibility:hidden;}
@@ -386,13 +403,16 @@ hr {
 
 
   @media screen and (max-width: 768px) {
-    .col-sm-4 {
-      text-align: center;
-      margin: 25px 0;
-    }
-    .btn-lg {
-        width: 100%;
-        margin-bottom: 35px;
+      .col-sm-4 {
+          text-align: center;
+          margin: 25px 0;
+      }
+      .col-sm-6 {
+          margin-top: 20px;
+      }
+      .btn-lg {
+            width: 100%;
+            margin-bottom: 35px;
     }
   }
   @media screen and (max-width: 480px) {
